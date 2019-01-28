@@ -8,13 +8,13 @@ body, html {
     color: #666;
     text-align: center;
 }
-.contact-us {
+#contact-us {
     right: 1%;
     position: fixed;
     color: black;
     font-weight: bold;
-}
-a {
+    z-index: 10;
+    opacity: 0%;
     color: black;
     font-weight: bolder;
 }
@@ -82,7 +82,7 @@ section {
 }
 .footer {
     color: #fff;
-    background-color: #000;
+    background-color: #323232;
 
 }
 
